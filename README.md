@@ -37,3 +37,23 @@ From three different sources:
   <li> Unwanted columns (retweeted_status_id , retweeted_status_user_id, retweeted_status_timestamp) </li>
 
   </ul>
+
+<h4> image_predictions_df : </h4> 
+<ul>
+  <li> Unnecessary columns. Only wanted columns are taken in </li>
+  </ul>
+  
+  
+  <h4> api_data_df : </h4> 
+<ul>
+  <li> Datatype of date_time is object instead of datetime </li>
+  </ul>
+  
+  
+<h3> Tidiness Issues </h3>
+<ul>
+  
+  <li> 4 columns present for each stage in dog's life (doggo, pupper, puppo, floofer) </li>
+  <li> No need for three dataframes. Can be combined into one </li>
+  
+  </ul>
