@@ -18,3 +18,22 @@ From three different sources:
  
   
  </ol>
+
+
+
+
+<h2> Data Assessing </h2>
+
+<h3> Quality Issues </h3>
+
+<h4> twitter_enhanced_df : </h4> 
+<ul>
+  <li> Some rows in rating_denominator have a rating of more than 10 and some with less than 10 </li>
+  <li> Some rows in rating_numerator have an extremely high rating </li>
+  <li> Datatype of timestamp retweeted_status_timestamp is object instead of datetime </li>
+  <li> Erraneous values in name ('a', 'an', 'O', 'JD' etc) </li>
+  <li> Expanded_urls has "NaN" valued rows </li>
+  <li> name contains "None" values </li>
+  <li> Unwanted columns (retweeted_status_id , retweeted_status_user_id, retweeted_status_timestamp) </li>
+
+  </ul>
